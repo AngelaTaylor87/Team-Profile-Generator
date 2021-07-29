@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Homework10",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelaTaylor87/Team-Profile-Generator.git"
+  },
+  "author": "sole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelaTaylor87/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AngelaTaylor87/Team-Profile-Generator#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
