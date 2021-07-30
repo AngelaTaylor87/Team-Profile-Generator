@@ -1,5 +1,8 @@
 # Team-Profile-Generator
 Homework10
+
+# Screenshot
+
 # Description
 As a web developer i want to I want to create a team generator app so that i can create a real-time application that generates a webpage that displays my team's basic info so I can have quick access to their emails and GitHub profiles. 
 
