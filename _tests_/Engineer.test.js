@@ -3,7 +3,7 @@ const Engineer = require('../lib/Engineer')
 
 describe('Engineer class', () => {
     it('should be initiated', () => {
-        const engineer = new Engineer('Angela', 1, 'noemail@email.com');
+        const engineer = new Engineer('Angela', '1', 'noemail@email.com');
         expect(typeof( engineer)).toBe('object')
         expect(engineer instanceof Engineer).toBe(true);
     })
@@ -14,12 +14,12 @@ describe('Engineer class', () => {
     })
 
     it('should have id property', () => {
-    const engineer = new Engineer('Angela', 1);
-    expect(engineer.id).toBe(1);
+    const engineer = new Engineer('Angela', '1');
+    expect(engineer.id).toBe('1');
     })
 
     it('should have email property', () => {
-        const engineer = new Engineer('Angela', 1, 'noemail@email.com');
+        const engineer = new Engineer('Angela', '1', 'noemail@email.com');
         expect(engineer.email).toBe('noemail@email.com');
         })
-});
+})
